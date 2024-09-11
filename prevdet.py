@@ -3,8 +3,8 @@ from collections import defaultdict
 import time
 import os
 
-# Configuration
-IP_THRESHOLD = 100  
+
+IP_THRESHOLD = 2 #threshold value has been set to 2, may cause unwanted detects
 BLOCK_TIME = 10     
 TIME_WINDOW = 60    
 
